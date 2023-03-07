@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1346787021/photo/surprised-fold-cat-in-a-party-birthday-hat-copy-space.jpg?s=612x612&w=0&k=20&c=k_9dT7uttSsAIBhbXl7QIIcoB4ktj4fVomG4Kt2-puk=");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -10rem;
+}
+
+.countdown-container{
+    display: flex;
+    margin-left: 5rem;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
+
+.count {
+    margin-left: 15rem;
+    margin-right: -12rem;
+}
